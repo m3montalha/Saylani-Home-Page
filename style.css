@@ -1,0 +1,40 @@
+*{margin: 0;}
+body{font-family: Arial, Helvetica, sans-serif;}
+.alert{padding-top: 10pt; background-color: royalblue; text-align: center; color: white; height: 60px;}
+.himage{float: left;margin-left: 20pt;}
+.btn{float: right;font-size: 15px; margin: 1px 10pt;}
+.logo{float: left;width: 250px; height: 50px; margin-left: 10pt;}
+.nav-div{background: whitesmoke; height: 50px;margin-top: 15px;color: black;width: 100%;}
+nav{float: right;margin-top: 14px;cursor: pointer; ;margin-right: 35px;}
+a.navbar-home{background-color: royalblue;color: white;border-radius:25px ;font-size: 15px;padding: 10px 10px 10px 10px;}
+a.navbar-brand:hover{background-color: royalblue ; color:white; border-radius: 25px; font-size: 15px;padding: 10px 10px 10px 10px;}
+#mainimg{image-rendering: auto;width: 100%;height: 350pt}
+#marquee{padding-top: 7pt; background-color: royalblue; color: white; margin-left: 50pt;margin-right: 50pt;margin-top: 5pt;height: 20pt;justify-content: center;}
+#pdiv{background-color: whitesmoke;}
+h1{text-align: center;}
+.logo1{margin-left: 46%; width: 40pt;}
+#paragraph1{margin-left: 120pt;margin-right: 120pt;text-align: justify;}
+#paragraph2{margin-left: 120pt;margin-right: 120pt;text-align: justify;}
+#paragraph3{margin-left: 120pt;margin-right: 120pt;text-align: justify;}
+#paragraph4{margin-left: 120pt;margin-right: 120pt;text-align: justify;}
+#facts-container{height: 100pt; background-color: royalblue; display: flex;flex-direction: row;text-align: center; padding: 40pt;}
+#fact1,#fact2,#fact3,#fact4{margin: auto; font-size: 15pt; color: white;}
+#food, #family, #medical, #education{ width: 35pt;height: 35pt;}
+.span{color: lime;}
+#doing-container, #doing-container1{display: flex;flex-direction: row;text-align: center;justify-content: space-between;align-items: center}
+.doing{background-color: white; box-shadow: 0 0 10px grey;width: 600pt;height: 150pt;margin-left: 20pt;margin-right: 20pt;}
+.doingimg{margin-top: 35px;}
+#mission{margin: 50pt 0pt 0pt 20pt}
+#ucmg-container,#ucmg-container1{width: 67%; display: flex;flex-direction: row;text-align: center;justify-content: space-between;align-items: center}
+.ucmg{background-color: white; box-shadow: 0 0 10px grey;width: 300pt;height: 80pt;margin-right: 50pt;}
+.ucmgimg{margin-top: 20pt;}
+#ulinks{width: 33%;float: right; margin-top: -230pt;}
+#img{width: 90%; display: flex;flex-direction: row;margin-left: 20pt;margin-right: 20pt;justify-content: center;}
+.img{width: 170pt;}
+#last{background-color: grey; display: flex;flex-direction: row;height: 200pt;}
+#address{color: white; margin-left: 50pt;margin-right: 150pt;margin-top: 20pt;}
+#link{color: white; margin-left: 10pt;margin-right: 150pt;margin-top: 20pt;}
+#connect{color: white; margin-left: 10pt;margin-right: 150pt;margin-top: 20pt;}
+@media only screen and (max-width:500px) {{width: 400px;}}
+@media only screen and (max-width:450px) {{width: 300px;}}
+@media only screen and (max-width:300px) {{width: 200px;}}
